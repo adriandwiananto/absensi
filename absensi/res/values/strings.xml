@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">absensi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tCaption">Absensi</string>
+    <string name="tRegACCN">Account Number:</string>
+    <string name="bRegConfirm">Confirm</string>
+    <string name="bRegCancel">Cancel</string>
+    <string name="tNfcCaption">Random Number</string>
+    <string name="bNfcCancel">Cancel</string>
+
+</resources>

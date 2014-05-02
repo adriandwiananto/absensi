@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.emoney.absensi.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/tCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="@dimen/first_top_margin_in_activity"
+        android:text="@string/tCaption"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/top_margin_between_row_in_activity" >
+
+        <ImageButton
+            android:id="@+id/ibNfc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nfc_logo_mono" />
+
+        <ImageButton
+            android:id="@+id/ibQr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingRight="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qr_code" />
+
+    </LinearLayout>
+
+</LinearLayout>
