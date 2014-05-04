@@ -61,6 +61,7 @@ public class MainActivity extends Activity implements OnClickListener{
 				startActivity(new Intent(this, AbsenNfc.class));
 				break;
 			case R.id.ibQr:
+				startActivity(new Intent(this, AbsenQr.class));
 				break;
 		}
 	}
